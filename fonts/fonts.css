@@ -1,0 +1,24 @@
+@font-face {
+   font-family: 'font-1';
+   src: url('../fonts/montserrat/Montserrat-Medium.woff');
+   font-weight: 400;
+   font-style: normal;
+ }
+ @font-face {
+   font-family: 'font-2';
+   src: url('../fonts/montserrat/Montserrat-Bold.woff2');
+   font-weight: 400;
+   font-style: normal;
+ }
+ @font-face {
+   font-family: 'font-3';
+   src: url('../fonts/montserrat/Montserrat-ExtraBold.woff');
+   font-weight: 400;
+   font-style: normal;
+ }
+ @font-face {
+   font-family: 'font-4';
+   src: url('../fonts/Stalinist_One/StalinistOne-Regular.ttf');
+   font-weight: 400;
+   font-style: normal;
+ }
