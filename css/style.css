@@ -228,6 +228,7 @@ body.overflow {
     left: auto;
     right: 5%;
     justify-content: end;
+    transition: all 2s;
   }
 }
 @media (min-width: 1700px) {
@@ -236,6 +237,7 @@ body.overflow {
     right: 3%;
     justify-content: center;
     max-width: 1500px;
+    transition: all 2s;
   }
 }
 .header__navigation.active {
@@ -267,6 +269,7 @@ body.overflow {
     gap: 30px;
     position: relative;
     top: -15px;
+    padding: 100px 0px 140px 0px;
   }
 }
 @media (min-width: 1700px) {
@@ -276,6 +279,7 @@ body.overflow {
     width: 100%;
     position: static;
     justify-content: center;
+    padding: 100px 0px 100px 0px;
   }
 }
 .header__list-item {
@@ -289,6 +293,11 @@ body.overflow {
 @media (min-width: 1025px) {
   .header__list-item {
     transform: translateX(0);
+    font-size: 18px;
+  }
+}
+@media (min-width: 1700px) {
+  .header__list-item {
     font-size: 18px;
   }
 }
