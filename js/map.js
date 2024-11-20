@@ -13,7 +13,7 @@ function init() {
     }, {
       // Изменение на кастомную иконку для метки.
       iconLayout: 'default#image',
-      iconImageHref: '../img/others/map-marker.png', // Путь к png-файлу.
+      iconImageHref: './img/others/map-marker.png', // Путь к png-файлу.
       iconImageSize: [50, 50], // Размер иконки.
       iconImageOffset: [-25, -25] // Смещение иконки, чтобы она указывала на точку (обычно половинный размер).
   });
