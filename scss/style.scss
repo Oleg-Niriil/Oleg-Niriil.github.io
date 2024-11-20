@@ -559,6 +559,30 @@ body {
       max-height: 400px;
       border-radius: 10px;
       padding: 50px 100px 50px 100px;
+      &:nth-of-type(1) .section-reviews__avatar {
+         background-image: url("../img/others/client-1.jpg");
+      }
+      &:nth-of-type(2) .section-reviews__avatar {
+         background-image: url("../img/others/client-2.jpeg");
+      }
+      &:nth-of-type(3) .section-reviews__avatar {
+         background-image: url("../img/others/client-3.jpg");
+      }
+      &:nth-of-type(4) .section-reviews__avatar {
+         background-image: url("../img/others/client-4.jpg");
+      }
+      &:nth-of-type(5) .section-reviews__avatar {
+         background-image: url("../img/others/client-5.jpg");
+      }
+      &:nth-of-type(6) .section-reviews__avatar {
+         background-image: url("../img/others/client-6.png");
+      }
+      &:nth-of-type(7) .section-reviews__avatar {
+         background-image: url("../img/others/client-7.jpg");
+      }
+      &:nth-of-type(8) .section-reviews__avatar {
+         background-image: url("../img/others/client-8.jpg");
+      }
       @media (max-width: 440px) {
          padding: 50px 10px 50px 10px;
       }
@@ -1080,11 +1104,6 @@ body {
       }
    }
 }
-
-.section-reviews__review:nth-of-type(2) .section-reviews__avatar {
-   background-image: url("../img/others/client-2.jpeg");
-}
-
 
 // Стили для эффекта стекла.
 // width: 200px;
