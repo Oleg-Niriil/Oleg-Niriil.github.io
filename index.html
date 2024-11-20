@@ -8,41 +8,44 @@
     <title>N-Art Studio</title>
 </head>
 <body>
+   <!-- Фоновый ролик. -->
    <video autoplay muted loop id="background-video">
       <source src="video/vid-1.mp4" type="video/mp4">
       Ваш браузер не поддерживает видео в формате MP4.
    </video>
+   <!-- Заставка. -->
    <div class="preloader"><div class="preloader__logo"><img src="img/others/logo.jpg" alt="Logotype"></div></div>
    <div class="overlay"></div>
    <div class="content-hidden">
+   <!-- Навигация. -->
    <header class="header">
       <div class="header__wrapper">
          <div class="header__logo"><a href="#" class="header__logo-link"><img src="img/others/logo.jpg" alt="Logotype" class="header__logo-img"></a></div>
          <nav class="header__navigation">
             <ul class="header__list">
                <li class="header__list-item" data-text="Главная">
-                  <a href="#" class="header__link">Главная</a>
+                  <a href="#top" class="header__link">Главная</a>
                </li>
                <li class="header__list-item" data-text="Галерея">
                   <a href="#" class="header__link">Галерея</a>
                </li>
                <li class="header__list-item" data-text="О нас">
-                  <a href="#" class="header__link">О нас</a>
+                  <a href="#section-about" class="header__link">О нас</a>
                </li>
                <li class="header__list-item" data-text="Акции">
                   <a href="#" class="header__link">Акции</a>
                </li>
                <li class="header__list-item" data-text="Отзывы">
-                  <a href="#" class="header__link">Отзывы</a>
+                  <a href="#section-reviews" class="header__link">Отзывы</a>
                </li>
                <li class="header__list-item" data-text="Наши мастера">
-                  <a href="#" class="header__link">Наши мастера</a>
+                  <a href="#section-masters" class="header__link">Наши мастера</a>
                </li>
                <li class="header__list-item" data-text="Инструкция">
                   <a href="#" class="header__link">Инструкция</a>
                </li>
                <li class="header__list-item" data-text="Контакты">
-                  <a href="#" class="header__link">Контакты</a>
+                  <a href="#section-contacts" class="header__link">Контакты</a>
                </li>
             </ul>
          </nav>
@@ -51,13 +54,202 @@
          </div>
       </div>
    </header>
+   <!-- Основной контент. -->
+   <main class="main">
+      <!-- Блок старт. -->
+      <div class="wrapper-start">
+         <div class="block-start">
+            <h1 class="block-start__title">N-Art Tattoo Studio</h1>
+            <span class="block-start__text">Студия Татуировки в Могилёве</span>
+            <a href="#section-about" class="block-start__link">Продолжить</a>
+         </div>
+      </div>
+      <!-- Карточки. -->
+      <section id="section-about" class="section-about">
+         <h2 class="section-about__title">Оказываемые <span>услуги</span></h2>
+         <div class="section-about__services">
+            <!-- Карточка 1. -->
+            <div class="section-about__card">
+               <div class="section-about__card-ico">
+                  <img src="img/tattoo-maschine.png" alt="Icon">
+               </div>
+               <div class="section-about__card-text">
+                  <span class="section-about__card-title">Нанесение татуировки</span>
+                  <span class="section-about__card-description">Доверьте создание вашего уникального рисунка опытным мастерам. Мы используем только сертифицированные материалы и современное оборудование, обеспечивая безопасность и высокое качество. Выберите готовый эскиз или принесите свой - мы сделаем вашу мечту реальностью. Работаем с любыми стилями и уровнями сложности.</span>
+               </div>
+            </div>
+            <!-- Карточка 2. -->
+            <div class="section-about__card">
+               <div class="section-about__card-ico">
+                  <img src="img/tattoo-maschine.png" alt="Icon">
+               </div>
+               <div class="section-about__card-text">
+                  <span class="section-about__card-title">Создание эскиза</span>
+                  <span class="section-about__card-description">Индивидуальный подход к каждому клиенту. Мы разрабатываем уникальные эскизы, которые подчеркнут вашу индивидуальность. От классических мотивов до современных композиций - наши мастера воплотят ваши идеи в жизнь, учитывая все пожелания. Бесплатные корректировки до утверждения макета!</span>
+               </div>
+            </div>
+            <!-- Карточка 3. -->
+            <div class="section-about__card">
+               <div class="section-about__card-ico">
+                  <img src="img/tattoo-maschine.png" alt="Icon">
+               </div>
+               <div class="section-about__card-text">
+                  <span class="section-about__card-title">Бесплатная консультация</span>
+                  <span class="section-about__card-description">Не уверены, с чего начать? Запишитесь на бесплатную консультацию с нашим мастером! Мы поможем определиться с местом, стилем и размером будущей татуировки, ответим на все вопросы и расскажем о процессе. Убедитесь, что ваша идея в надёжных руках.</span>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Отзывы. -->
+      <section class="section-reviews" id="section-reviews">
+         <h2 class="section-reviews__title">Отзывы <span>клиентов</span></h2>
+         <div class="section-reviews__wrapper">
+            <button class="section-reviews__btn section-reviews__prev-btn"></button>
+            <div class="section-reviews__slider-container">
 
-   <main class="maim">
-      
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Евгений Смирнов</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Смело рекомендую эту студию всем, кто хочет качественную татуировку! Атмосфера уютная, персонал приветливый и внимательный. Мастер помог с выбором эскиза и даже немного доработал мой вариант. Процесс прошёл быстро и безболезненно, всё стерильно и аккуратно. Теперь я с гордостью ношу свою тату, и планирую вернуться за следующей. Спасибо!"</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Андрей Волков</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"В этой студии работают настоящие профессионалы своего дела! Мастер создал уникальный эскиз, который идеально подошёл мне. Атмосфера очень дружелюбная, оборудование новое и стерильное. Всем рекомендую, кто хочет качественную и стильную татуировку!"</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Виталий Кузнецов</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Заказывал эскиз у мастера. Получил шикарный дизайн, который полностью отразил мою идею. Всё сделали быстро и качественно."</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Дмитрий Соколов</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Сделал татуировку - результат превзошёл ожидания!"</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Василий Калинин</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Мастерство и качество на высоте!"</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Стас Белоусов</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Ребята профессионалы! Всё стерильно, комфортно, мастер учёл все пожелания. Обязательно вернусь снова!"</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Валентин Молчанов</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Посетил студию для консультации, мастер помог определиться с идеей. В итоге сделал свою первую татуировку, и это лучший выбор в моей жизни. Спасибо за душевную работу!"</p>
+                  </div>
+               </div>
+
+               <div class="section-reviews__review">
+                  <div class="section-reviews__review-head">
+                     <div class="section-reviews__avatar"></div>
+                     <div class="section-reviews__username">Борис Яковлев</div>
+                  </div>
+                  <div class="section-reviews__body">
+                     <p class="section-reviews__comment">"Я долго выбирал студию для своего первого тату, и рад, что остановился именно здесь. Мастера работают аккуратно, прислушиваются к клиенту и дают ценные советы. Результат превзошёл ожидания, тату выглядит просто шикарно! Огромное спасибо за ваше терпение и талант."</p>
+                  </div>
+               </div>
+
+            </div>
+            <button class="section-reviews__btn section-reviews__next-btn"></button>
+         </div>
+      </section>
+      <!-- Галерея. -->
+      <section class="section-gallery">
+         <h2 class="section-gallery__title">Ознакомьтесь с работами наши <span>мастеров</span></h2>
+         <a href="#" class="section-gallery__link">Ознакомиться</a>
+      </section>
+      <!-- Акции. -->
+      <section class="section-promotions">
+         <h2 class="section-promotions__title">Наши <span>акции!</span></h2>
+         <div class="section-promotions__body">
+            <p class="section-promotions__text">Ознакомьтесь с нашими акциями, скидочными купонами, сезонными, ивентовыми скидками и сертификатами на сайте.</p>
+            <a href="#" class="section-promotions__link">Вперёд за выгодой!</a>
+         </div>
+      </section>
+      <!-- Мастера. -->
+       <section class="section-masters" id="section-masters">
+         <h2 class="section-masters__title">Наши <span>мастера</span></h2>
+         <div class="section-masters__masters-wrapper">
+            <div class="section-masters__master-1">
+               <div class="section-masters__photo-1"></div>
+               <div class="section-masters__about-wrapper">
+                  <span class="section-masters__master-name">Никита Грицко</span>
+                  <p class="section-masters__about">Мастер художественной татуировки с более чем 10-летним опытом. Никита специализируется на реалистичных татуировках и портретах, которые выглядят как настоящие произведения искусства. Его работы отличаются высокой детализацией, чёткими линиями и богатой палитрой. Никита всегда готов воплотить в жизнь даже самые сложные идеи клиента.</p>
+               </div>
+            </div>
+            <div class="section-masters__master-2">
+               <div class="section-masters__photo-2"></div>
+               <div class="section-masters__about-wrapper">
+                  <span class="section-masters__master-name">Денис Седаков</span>
+                  <p class="section-masters__about">Мастер с уникальным подходом к созданию татуировок в стиле минимализма и геометрии. Денис отлично работает с точными линиями и контрастными узорами, создавая изысканные и современные дизайны. Его профессионализм и внимательность к деталям помогают клиентам чувствовать себя уверенно и комфортно на каждом этапе.</p>
+               </div>
+            </div>
+         </div>
+       </section>
+       <!-- Контакты с картой. -->
+        <section class="section-contacts" id="section-contacts">
+         <h2 class="section-contacts__title">Наши <span>Контакты</span></h2>
+         <span class="section-contacts__address">Где мы: Беларусь, Могилёв, ул.Гагарина д.60</span>
+         <div class="section-contacts__wrapper-map" id="map"></div>
+        </section>
+        <div class="margin-bottom"></div>
    </main>
-
-   <footer class="footer"></footer>
+   <!-- Контакты без карты. -->
+   <footer class="footer">
+      <div class="footer__wrapper">
+         <h2 class="footer__title">Наши <span>Контакты</span></h2>
+         <div class="footer__tel-wrapper">
+            <a href="tel:+375259051259" class="footer__tel">+375(25)9051259</a>
+            <a href="tel:+375259051259" class="footer__tel">+375(25)9051259</a>
+         </div>
+         <div class="footer__mail-wrapper">
+            <a href="https://vk.com/silver_wolf_group_mogilev" class="footer__vk">Написать в VK</a>
+            <a href="mailto:niriil@mail.ru?subject=Вопрос%20по%20услугам" class="footer__email">Отправить E-mail</a>
+         </div>
+         <button class="footer__sign-up">Записаться</button>
+      </div>
+   </footer>
    </div>
+   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=7b53ab08-34ee-4943-b88d-bfcf6cd6beff"></script>
+   <script src="js/map.js"></script>
    <script src="js/script.js"></script>
 </body>
 </html>
