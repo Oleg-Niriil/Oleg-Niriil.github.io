@@ -654,6 +654,30 @@ body.overflow {
   border-radius: 10px;
   padding: 50px 100px 50px 100px;
 }
+.section-reviews__review:nth-of-type(1) .section-reviews__avatar {
+  background-image: url("../img/others/client-1.jpg");
+}
+.section-reviews__review:nth-of-type(2) .section-reviews__avatar {
+  background-image: url("../img/others/client-2.jpeg");
+}
+.section-reviews__review:nth-of-type(3) .section-reviews__avatar {
+  background-image: url("../img/others/client-3.jpg");
+}
+.section-reviews__review:nth-of-type(4) .section-reviews__avatar {
+  background-image: url("../img/others/client-4.jpg");
+}
+.section-reviews__review:nth-of-type(5) .section-reviews__avatar {
+  background-image: url("../img/others/client-5.jpg");
+}
+.section-reviews__review:nth-of-type(6) .section-reviews__avatar {
+  background-image: url("../img/others/client-6.png");
+}
+.section-reviews__review:nth-of-type(7) .section-reviews__avatar {
+  background-image: url("../img/others/client-7.jpg");
+}
+.section-reviews__review:nth-of-type(8) .section-reviews__avatar {
+  background-image: url("../img/others/client-8.jpg");
+}
 @media (max-width: 440px) {
   .section-reviews__review {
     padding: 50px 10px 50px 10px;
@@ -1191,8 +1215,4 @@ body.overflow {
 .footer__sign-up:active {
   color: #161616;
   text-shadow: 0px 0px 15px rgb(43, 255, 0), 0px 0px 15px rgb(43, 255, 0), 0px 0px 15px rgb(43, 255, 0), 0px 0px 15px rgb(43, 255, 0), 0px 0px 15px rgb(43, 255, 0);
-}
-
-.section-reviews__review:nth-of-type(2) .section-reviews__avatar {
-  background-image: url("../img/others/client-2.jpeg");
 }
